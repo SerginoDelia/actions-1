@@ -9,7 +9,7 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v5 #uses because we are making use of an action
 
-            - name: Welcome message
+            - name: List and Read Files
               run: | # uses a pipe for multiple commands
                 echo "My first Github Actions Job"
                 ls -lra
